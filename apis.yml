@@ -1,7 +1,29 @@
 aid: rascal-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rascal-games.png
 name: Rascal Games
-description: Rascal Games is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rascal Games is a game development studio founded by Rick and Jon, both
+  experienced entrepreneurs previously at Blitz.gg and Discord. The studio is
+  building "Project Wayward," a group-based PvE action-adventure game inspired
+  by Sea of Thieves, Valheim, and Fortnite, with an emphasis on cooperative
+  multiplayer experiences. Rascal Games raised a Series Seed round backed by
+  a16z SPEEDRUN and industry veterans including Mitch Lasky. As a pre-launch
+  game studio, Rascal Games publishes a marketing and careers site but exposes
+  no public developer API, developer portal, or technical documentation surface
+  at this time. This profile was surfaced as an a16z portfolio company and added
+  to the API Evangelist network as a lead; the enrichment pass confirms there is
+  currently no API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/rascal-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Studio
+- Multiplayer
+- Entertainment
+- Game Development
 apis: []
+common:
+- type: Website
+  url: https://www.rascalgames.com/
+- type: About
+  url: https://www.rascalgames.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
